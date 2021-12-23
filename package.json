@@ -1,0 +1,26 @@
+{
+  "name": "sentinel-api",
+  "version": "0.0.1",
+  "description": "This is gonna be the API that Sentinel will use for certain things",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheUntraceable/Sentinel-API.git"
+  },
+  "keywords": [
+    "Sentinel-API"
+  ],
+  "author": "TheUntraceable",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheUntraceable/Sentinel-API/issues"
+  },
+  "homepage": "https://github.com/TheUntraceable/Sentinel-API#readme",
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "express": "^4.17.2"
+  }
+}
