@@ -6,12 +6,15 @@ const config = require("./config.json");
 const app = express();
 app.config = config;
 
-express.use(express.json());
+app.use(express.json());
 
 const logger = async (req, res, next) => {
     console.log(`[${chalk.green(new Date().toISOString())}] [${req.ip}] ${chalk.blue(req.method)}  ${chalk.yellow(req.path)}`);
     next();
 }
 
-express.use(logger)
+app.use(logger)
 
+app.listen(app.config.port, () => {
+    console.log(`[${chalk.green(new Date().toISOString())}] [${chalk.blue("SERVER")}] ${chalk.green(`Listening on port ${app.config.port}`)}`);
+})

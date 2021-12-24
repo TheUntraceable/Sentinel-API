@@ -21,7 +21,7 @@
   "homepage": "https://github.com/TheUntraceable/Sentinel-API#readme",
   "dependencies": {
     "axios": "^0.24.0",
-    "chalk": "^5.0.0",
+    "chalk": "^4.1.1",
     "express": "^4.17.2"
   }
 }
