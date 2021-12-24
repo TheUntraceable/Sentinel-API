@@ -1,0 +1,7 @@
+{
+    "clientId": "Client Id from the dev portal",
+    "clientSecret": "Client Secret from the dev portal, keep secret",
+    "token": "Client Token from dev portal, keep secret",
+    "redirectUri": "The redirect URI you have set in the dev portal",
+    "port": "The port you want to run the server on as a NUMBER",
+}
